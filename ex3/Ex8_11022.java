@@ -8,10 +8,11 @@ public class Ex8_11022 {
 
         int n = sc.nextInt();
         for (int i = 0; i < n; i++) {
-            int a = sc.nextInt();
-            int b = sc.nextInt();
+            for (int j = 0 ; j <= i; j++) {
+                System.out.print("*");
+            }
 
-            System.out.println("Case #" + (i + 1) + ": " + a + " + " + b + " = " + (a + b));
+            System.out.println();
         }
     }
 }
