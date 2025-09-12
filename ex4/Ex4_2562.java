@@ -23,6 +23,7 @@ public class Ex4_2562 {
         for (int i = 0; i < nums.length; i++) {
             if (max == nums[i]) {
                 arrNum = i + 1;
+                break;
             }
         }
 
